@@ -38,27 +38,27 @@ st.write("---")  # creates a horizontal line, useful to separate the content in 
 ################################################################################
 ###### We will generate some data
 
-# my_list = [10,50,409] # Python list
-# my_dict = {'Number':[1,2,3], 'Color': ['Blue', 'Yellow', 'Green']} # python dictionary
+my_list = [10,50,409] # Python list
+my_dict = {'Number':[1,2,3], 'Color': ['Blue', 'Yellow', 'Green']} # python dictionary
 
 ##### we will use pandas and numpy to generate a DataFrame. 
 ##### For now, think of a DataFrame as a table with columns, rows and data.
-# import numpy as np
-# import pandas as pd 
-# np.random.seed(1)
-# df = pd.DataFrame(data={"Col1":np.random.randint(low=-100,high=100,size=10),
-#                         "Col2":np.random.randint(low=25,high=80,size=10)
-#                         })
+import numpy as np
+import pandas as pd 
+np.random.seed(1)
+df = pd.DataFrame(data={"Col1":np.random.randint(low=-100,high=100,size=10),
+                        "Col2":np.random.randint(low=25,high=80,size=10)
+                        })
 
-# st.write("This is a list")
-# st.write(my_list)
-# st.write("This is a dict")
-# st.write(my_dict)
-# st.write("This is a DataFrame")
-# st.write(df)
-# st.write("Alternatively, you can display a DataFrame using st.table()")
-# st.table(df)
-# st.write('---')
+st.write("This is a list")
+st.write(my_list)
+st.write("This is a dict")
+st.write(my_dict)
+st.write("This is a DataFrame")
+st.write(df)
+st.write("Alternatively, you can display a DataFrame using st.table()")
+st.table(df)
+st.write('---')
 
 
 
